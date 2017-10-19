@@ -9,14 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-   <servlet>
+
+   <!-- <servlet>
         <servlet-name>websocket</servlet-name>
         <servlet-class>cn.WebSocket.WebSocket</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>websocket</servlet-name>
-        <url-pattern>/wbSocket</url-pattern>
-    </servlet-mapping>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping> -->
   <listener>
     <listener-class>cn.Thread.RunThread</listener-class>
   </listener>
